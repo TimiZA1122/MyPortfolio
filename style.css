@@ -1,0 +1,135 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  /* Dark text color */
+  background-image: url('https://euc.yorku.ca/wp-content/uploads/2021/06/vari-drone.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  /* White background with 90% opacity */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #000;
+  /* Black title color */
+  font-size: 2.5rem;
+  font-weight: bold;
+  /* Bold font weight */
+  margin-top: 20px;
+}
+
+p {
+  color: #666;
+  /* Lighter text color */
+  font-size: 1.2rem;
+}
+
+header {
+  background-color: #cc0000;
+  /* Red header background */
+  padding: 10px 0;
+  border-bottom: 3px solid #000;
+  /* Black border */
+}
+
+.navbar {
+  background-color: #cc0000;
+  /* Red background for navbar */
+  border: px solid #000;
+  /* Black border around the navbar */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #fff;
+  /* White text color */
+  font-weight: bold;
+  /* Bold font weight */
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  color: #fff !important;
+  /* Black text color */
+}
+
+img {
+  width: 90%;
+  height: auto;
+  margin-bottom: 0px;
+  border: 4px solid #000;
+  /* Black border around the image */
+}
+
+/* New image container styles for centering */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 1px;
+  background-color: #cc0000;
+  /* Red footer background */
+  color: #fff;
+  /* White text color */
+  position: Center;
+  bottom: 0;
+  width: 100%;
+  border: 4px solid #000;
+  /* Black border around the footer */
+}
+
+footer p {
+  color: #fff;
+  /* White text color */
+}
+
+main {
+  padding-bottom: 245px;
+  /* Adjust to match footer height */
+}
+
+/* Updated styles for the text with bold border */
+.row {
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+}
+
+.col-md-6 {
+  flex: 1;
+  padding: 20px;
+  /* Add padding inside the border */
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+}
+
+.col-md-6 p {
+  font-weight: bold;
+  /* Make the text bold */
+  border: 5px solid #000;
+  /* Black border around the text */
+  padding: 35px;
+  /* Add padding inside the border */
+  background-color: #cc0000;
+  /* Red background */
+  color: #fff;
+  /* White text color */
+}
